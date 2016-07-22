@@ -53,7 +53,7 @@ au BufWrite /private/tmp/crontab.* set nowritebackup
 " Don't write backup file if vim is being called by "chpass"
 au BufWrite /private/etc/pw.* set nowritebackup
 
-set fdm=syntax 															"folding method
+set fdm=syntax          "folding method
 highlight Folded ctermbg=Grey
 
 set hlsearch
@@ -64,7 +64,7 @@ set nu
 set ruler
 set autoindent
 set showcmd
-set showmatch   													 	" Show matching brackets.
+set showmatch           " Show matching brackets.
 set shiftwidth=2
 set tabstop=2
 
